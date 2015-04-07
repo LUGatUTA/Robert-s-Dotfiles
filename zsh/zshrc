@@ -1,3 +1,8 @@
+# If tmux not running then start it
+if [ "$TMUX" = "" ]; then tmux; fi
+# If mpd not running then start it
+if ! pgrep mpd; then mpd -v; fi
+
 export PYTHONPATH=/usr/lib/python3.4/site-packages
 source /usr/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh
 source ~/.dotfiles/zsh/config.zsh

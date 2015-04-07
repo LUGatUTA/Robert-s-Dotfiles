@@ -5,7 +5,7 @@ Repository of my personally used dotfiles (based on [Lion Krischer's dotfiles](h
 Currently aims to be a development environment for Python & C.
 
 ## Screenshot
-![Result](https://raw.github.com/rghamilton3/dotfiles/master/images/screenshot.png)
+TODO
 
 ## Installation
 ### Requirements
@@ -142,5 +142,5 @@ Special __ss__ always wraps the whole line ignoring leading whitespaces.
 
 ### TODO 
    
-   Finish rest of plugins
+    Finish rest of plugins
 
