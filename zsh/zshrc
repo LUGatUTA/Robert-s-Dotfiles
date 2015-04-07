@@ -1,0 +1,37 @@
+export PYTHONPATH=/usr/lib/python3.4/site-packages
+source /usr/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh
+source ~/.dotfiles/zsh/config.zsh
+source ~/.dotfiles/zsh/aliases.zsh
+source ~/.dotfiles/zsh/keymap.zsh
+
+# Load Antigen
+source ~/.dotfiles/zsh/antigen.zsh
+
+# Load various lib files
+antigen bundle robbyrussell/oh-my-zsh lib/
+
+# Antigen Theme
+antigen theme robbyrussell/oh-my-zsh themes/norm
+
+# Antigen Bundles
+# Mostly just aliases/autocompletion
+antigen bundle archlinux	
+antigen bundle colorize
+antigen bundle command-not-found
+antigen bundle common-aliases
+antigen bundle git
+antigen bundle systemd
+antigen bundle tmux
+antigen bundle tmuxinator
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# For SSH, starting ssh-agent is annoying
+antigen bundle ssh-agent
+
+# Python Plugins
+antigen bundle pip
+antigen bundle python
+antigen bundle virtualenv
+antigen bundle virtualenvwrapper
+
+
