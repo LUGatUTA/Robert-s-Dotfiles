@@ -34,7 +34,7 @@ ln -s -f -v `pwd`/eclim ~/.eclim
 
 # Symlink the tmux files
 ln -s -f -v `pwd`/tmux ~/.tmux
-ln -s -f -v `pwd`/tmux/tmux.conf~/.tmux.conf
+ln -s -f -v `pwd`/tmux/tmux.conf ~/.tmux.conf
 
 # Symlink the powerline files
 ln -s -f -v `pwd`/powerline ~/.config/powerline
